@@ -1,0 +1,9 @@
+platform :ios,'9.0'
+target 'CAShapeLayerDemo' do
+
+      pod 'AFNetworking'
+      pod 'Masonry'
+end
+
+
+

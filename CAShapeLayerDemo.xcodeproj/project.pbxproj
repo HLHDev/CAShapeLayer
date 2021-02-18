@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143CAAF49B564A8549A1E3F0 /* libPods-CAShapeLayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BED6F0A67E00B75C1245CCBD /* libPods-CAShapeLayerDemo.a */; };
+		5586DDDD23A1D3B400E3951A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DDDC23A1D3B400E3951A /* AppDelegate.m */; };
+		5586DDE323A1D3B400E3951A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DDE223A1D3B400E3951A /* ViewController.m */; };
+		5586DDE623A1D3B400E3951A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5586DDE423A1D3B400E3951A /* Main.storyboard */; };
+		5586DDE823A1D3B500E3951A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5586DDE723A1D3B500E3951A /* Assets.xcassets */; };
+		5586DDEB23A1D3B500E3951A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5586DDE923A1D3B500E3951A /* LaunchScreen.storyboard */; };
+		5586DDEE23A1D3B500E3951A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DDED23A1D3B500E3951A /* main.m */; };
+		5586DDF823A1D3B500E3951A /* CAShapeLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DDF723A1D3B500E3951A /* CAShapeLayerDemoTests.m */; };
+		5586DE0323A1D3B500E3951A /* CAShapeLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DE0223A1D3B500E3951A /* CAShapeLayerDemoUITests.m */; };
+		5586DE1223A2087D00E3951A /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DE1123A2087D00E3951A /* BezierPathView.m */; };
+		5586DE1523A20A5B00E3951A /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586DE1423A20A5B00E3951A /* BezierViewController.m */; };
+		559D908C23AB13AD0042D422 /* HBrokenLineXYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D908B23AB13AD0042D422 /* HBrokenLineXYView.m */; };
+		559D908F23AB44050042D422 /* HBrokenLineXYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D908E23AB44050042D422 /* HBrokenLineXYViewController.m */; };
+		559D909423AB678C0042D422 /* HBrokenPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D909323AB678C0042D422 /* HBrokenPointView.m */; };
+		559D909723AC58E10042D422 /* HBasicShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D909623AC58E10042D422 /* HBasicShapeLayer.m */; };
+		559D909A23AC65920042D422 /* HBrokenPointInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D909923AC65920042D422 /* HBrokenPointInfoView.m */; };
+		559D909D23B08B700042D422 /* HFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D909C23B08B700042D422 /* HFanViewController.m */; };
+		559D90A323B0A6E60042D422 /* HFanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D90A223B0A6E60042D422 /* HFanView.m */; };
+		559D90A723B1EB980042D422 /* HProgressBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D90A623B1EB980042D422 /* HProgressBarViewController.m */; };
+		559D90AA23B2FFFA0042D422 /* HProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D90A923B2FFFA0042D422 /* HProgressView.m */; };
+		55B506E923B6EA44003B8E34 /* HColorTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B506E823B6EA44003B8E34 /* HColorTextLabel.m */; };
+		55D4F3C223A9C56B00EE1117 /* HBrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4F3C123A9C56B00EE1117 /* HBrokenLineView.m */; };
+		55EA5D0423CC5180006020D3 /* ZHYSWaterAnalysLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EA5D0223CC5180006020D3 /* ZHYSWaterAnalysLineView.m */; };
+		55EA5D0723CC51AC006020D3 /* ZHYSExponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EA5D0623CC51AC006020D3 /* ZHYSExponentView.m */; };
+		55EA5D0A23CC5340006020D3 /* HLineChat2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EA5D0923CC5340006020D3 /* HLineChat2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5586DDF423A1D3B500E3951A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5586DDD023A1D3B400E3951A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5586DDD723A1D3B400E3951A;
+			remoteInfo = CAShapeLayerDemo;
+		};
+		5586DDFF23A1D3B500E3951A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5586DDD023A1D3B400E3951A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5586DDD723A1D3B400E3951A;
+			remoteInfo = CAShapeLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5586DDD823A1D3B400E3951A /* CAShapeLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapeLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5586DDDB23A1D3B400E3951A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5586DDDC23A1D3B400E3951A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5586DDE123A1D3B400E3951A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5586DDE223A1D3B400E3951A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5586DDE523A1D3B400E3951A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5586DDE723A1D3B500E3951A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5586DDEA23A1D3B500E3951A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5586DDEC23A1D3B500E3951A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5586DDED23A1D3B500E3951A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5586DDF323A1D3B500E3951A /* CAShapeLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5586DDF723A1D3B500E3951A /* CAShapeLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoTests.m; sourceTree = "<group>"; };
+		5586DDF923A1D3B500E3951A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5586DDFE23A1D3B500E3951A /* CAShapeLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5586DE0223A1D3B500E3951A /* CAShapeLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoUITests.m; sourceTree = "<group>"; };
+		5586DE0423A1D3B500E3951A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5586DE1023A2087D00E3951A /* BezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		5586DE1123A2087D00E3951A /* BezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+		5586DE1323A20A5B00E3951A /* BezierViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierViewController.h; sourceTree = "<group>"; };
+		5586DE1423A20A5B00E3951A /* BezierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierViewController.m; sourceTree = "<group>"; };
+		559D908A23AB13AD0042D422 /* HBrokenLineXYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBrokenLineXYView.h; sourceTree = "<group>"; };
+		559D908B23AB13AD0042D422 /* HBrokenLineXYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBrokenLineXYView.m; sourceTree = "<group>"; };
+		559D908D23AB44050042D422 /* HBrokenLineXYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBrokenLineXYViewController.h; sourceTree = "<group>"; };
+		559D908E23AB44050042D422 /* HBrokenLineXYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBrokenLineXYViewController.m; sourceTree = "<group>"; };
+		559D909223AB678C0042D422 /* HBrokenPointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBrokenPointView.h; sourceTree = "<group>"; };
+		559D909323AB678C0042D422 /* HBrokenPointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBrokenPointView.m; sourceTree = "<group>"; };
+		559D909523AC58E10042D422 /* HBasicShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBasicShapeLayer.h; sourceTree = "<group>"; };
+		559D909623AC58E10042D422 /* HBasicShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBasicShapeLayer.m; sourceTree = "<group>"; };
+		559D909823AC65920042D422 /* HBrokenPointInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBrokenPointInfoView.h; sourceTree = "<group>"; };
+		559D909923AC65920042D422 /* HBrokenPointInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBrokenPointInfoView.m; sourceTree = "<group>"; };
+		559D909B23B08B700042D422 /* HFanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFanViewController.h; sourceTree = "<group>"; };
+		559D909C23B08B700042D422 /* HFanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFanViewController.m; sourceTree = "<group>"; };
+		559D90A123B0A6E60042D422 /* HFanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFanView.h; sourceTree = "<group>"; };
+		559D90A223B0A6E60042D422 /* HFanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFanView.m; sourceTree = "<group>"; };
+		559D90A523B1EB980042D422 /* HProgressBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HProgressBarViewController.h; sourceTree = "<group>"; };
+		559D90A623B1EB980042D422 /* HProgressBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HProgressBarViewController.m; sourceTree = "<group>"; };
+		559D90A823B2FFFA0042D422 /* HProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HProgressView.h; sourceTree = "<group>"; };
+		559D90A923B2FFFA0042D422 /* HProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HProgressView.m; sourceTree = "<group>"; };
+		55B506E723B6EA44003B8E34 /* HColorTextLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HColorTextLabel.h; sourceTree = "<group>"; };
+		55B506E823B6EA44003B8E34 /* HColorTextLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HColorTextLabel.m; sourceTree = "<group>"; };
+		55D4F3C023A9C56B00EE1117 /* HBrokenLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBrokenLineView.h; sourceTree = "<group>"; };
+		55D4F3C123A9C56B00EE1117 /* HBrokenLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBrokenLineView.m; sourceTree = "<group>"; };
+		55EA5D0223CC5180006020D3 /* ZHYSWaterAnalysLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSWaterAnalysLineView.m; sourceTree = "<group>"; };
+		55EA5D0323CC5180006020D3 /* ZHYSWaterAnalysLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYSWaterAnalysLineView.h; sourceTree = "<group>"; };
+		55EA5D0523CC51AC006020D3 /* ZHYSExponentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYSExponentView.h; sourceTree = "<group>"; };
+		55EA5D0623CC51AC006020D3 /* ZHYSExponentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSExponentView.m; sourceTree = "<group>"; };
+		55EA5D0823CC5340006020D3 /* HLineChat2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLineChat2ViewController.h; sourceTree = "<group>"; };
+		55EA5D0923CC5340006020D3 /* HLineChat2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLineChat2ViewController.m; sourceTree = "<group>"; };
+		A1BB6B62057A5B4D3A621472 /* Pods-CAShapeLayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAShapeLayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-CAShapeLayerDemo/Pods-CAShapeLayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B90E0192982FB4551B638E00 /* Pods-CAShapeLayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAShapeLayerDemo.release.xcconfig"; path = "Target Support Files/Pods-CAShapeLayerDemo/Pods-CAShapeLayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BED6F0A67E00B75C1245CCBD /* libPods-CAShapeLayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CAShapeLayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5586DDD523A1D3B400E3951A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143CAAF49B564A8549A1E3F0 /* libPods-CAShapeLayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5586DDF023A1D3B500E3951A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5586DDFB23A1D3B500E3951A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5586DDCF23A1D3B400E3951A = {
+			isa = PBXGroup;
+			children = (
+				5586DDDA23A1D3B400E3951A /* CAShapeLayerDemo */,
+				5586DDF623A1D3B500E3951A /* CAShapeLayerDemoTests */,
+				5586DE0123A1D3B500E3951A /* CAShapeLayerDemoUITests */,
+				5586DDD923A1D3B400E3951A /* Products */,
+				F78A60780862A30882696DC4 /* Pods */,
+				EF030D8C14B58AD81D5E923F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5586DDD923A1D3B400E3951A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5586DDD823A1D3B400E3951A /* CAShapeLayerDemo.app */,
+				5586DDF323A1D3B500E3951A /* CAShapeLayerDemoTests.xctest */,
+				5586DDFE23A1D3B500E3951A /* CAShapeLayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5586DDDA23A1D3B400E3951A /* CAShapeLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5586DDDB23A1D3B400E3951A /* AppDelegate.h */,
+				5586DDDC23A1D3B400E3951A /* AppDelegate.m */,
+				5586DDE123A1D3B400E3951A /* ViewController.h */,
+				5586DDE223A1D3B400E3951A /* ViewController.m */,
+				55EA5D0123CC5166006020D3 /* 折线图2 */,
+				55EA5CED23C816EF006020D3 /* customLineView */,
+				559D90A423B1EB700042D422 /* ProgressBar */,
+				559D90A023B0A6AD0042D422 /* brokenLine */,
+				559D909F23B0A67D0042D422 /* columnar */,
+				559D909E23B0A6750042D422 /* fan */,
+				5586DDE423A1D3B400E3951A /* Main.storyboard */,
+				5586DDE723A1D3B500E3951A /* Assets.xcassets */,
+				5586DDE923A1D3B500E3951A /* LaunchScreen.storyboard */,
+				5586DDEC23A1D3B500E3951A /* Info.plist */,
+				5586DDED23A1D3B500E3951A /* main.m */,
+			);
+			path = CAShapeLayerDemo;
+			sourceTree = "<group>";
+		};
+		5586DDF623A1D3B500E3951A /* CAShapeLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5586DDF723A1D3B500E3951A /* CAShapeLayerDemoTests.m */,
+				5586DDF923A1D3B500E3951A /* Info.plist */,
+			);
+			path = CAShapeLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		5586DE0123A1D3B500E3951A /* CAShapeLayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5586DE0223A1D3B500E3951A /* CAShapeLayerDemoUITests.m */,
+				5586DE0423A1D3B500E3951A /* Info.plist */,
+			);
+			path = CAShapeLayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		559D909E23B0A6750042D422 /* fan */ = {
+			isa = PBXGroup;
+			children = (
+				559D909B23B08B700042D422 /* HFanViewController.h */,
+				559D909C23B08B700042D422 /* HFanViewController.m */,
+				559D90A123B0A6E60042D422 /* HFanView.h */,
+				559D90A223B0A6E60042D422 /* HFanView.m */,
+			);
+			path = fan;
+			sourceTree = "<group>";
+		};
+		559D909F23B0A67D0042D422 /* columnar */ = {
+			isa = PBXGroup;
+			children = (
+				5586DE1323A20A5B00E3951A /* BezierViewController.h */,
+				5586DE1423A20A5B00E3951A /* BezierViewController.m */,
+				5586DE1023A2087D00E3951A /* BezierPathView.h */,
+				5586DE1123A2087D00E3951A /* BezierPathView.m */,
+			);
+			path = columnar;
+			sourceTree = "<group>";
+		};
+		559D90A023B0A6AD0042D422 /* brokenLine */ = {
+			isa = PBXGroup;
+			children = (
+				559D908D23AB44050042D422 /* HBrokenLineXYViewController.h */,
+				559D908E23AB44050042D422 /* HBrokenLineXYViewController.m */,
+				55D4F3C023A9C56B00EE1117 /* HBrokenLineView.h */,
+				55D4F3C123A9C56B00EE1117 /* HBrokenLineView.m */,
+				559D908A23AB13AD0042D422 /* HBrokenLineXYView.h */,
+				559D908B23AB13AD0042D422 /* HBrokenLineXYView.m */,
+				559D909523AC58E10042D422 /* HBasicShapeLayer.h */,
+				559D909623AC58E10042D422 /* HBasicShapeLayer.m */,
+				559D909223AB678C0042D422 /* HBrokenPointView.h */,
+				559D909323AB678C0042D422 /* HBrokenPointView.m */,
+				559D909823AC65920042D422 /* HBrokenPointInfoView.h */,
+				559D909923AC65920042D422 /* HBrokenPointInfoView.m */,
+			);
+			path = brokenLine;
+			sourceTree = "<group>";
+		};
+		559D90A423B1EB700042D422 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				559D90A523B1EB980042D422 /* HProgressBarViewController.h */,
+				559D90A623B1EB980042D422 /* HProgressBarViewController.m */,
+				559D90A823B2FFFA0042D422 /* HProgressView.h */,
+				559D90A923B2FFFA0042D422 /* HProgressView.m */,
+				55B506E723B6EA44003B8E34 /* HColorTextLabel.h */,
+				55B506E823B6EA44003B8E34 /* HColorTextLabel.m */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		55EA5CED23C816EF006020D3 /* customLineView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = customLineView;
+			sourceTree = "<group>";
+		};
+		55EA5D0123CC5166006020D3 /* 折线图2 */ = {
+			isa = PBXGroup;
+			children = (
+				55EA5D0323CC5180006020D3 /* ZHYSWaterAnalysLineView.h */,
+				55EA5D0223CC5180006020D3 /* ZHYSWaterAnalysLineView.m */,
+				55EA5D0523CC51AC006020D3 /* ZHYSExponentView.h */,
+				55EA5D0623CC51AC006020D3 /* ZHYSExponentView.m */,
+				55EA5D0823CC5340006020D3 /* HLineChat2ViewController.h */,
+				55EA5D0923CC5340006020D3 /* HLineChat2ViewController.m */,
+			);
+			path = "折线图2";
+			sourceTree = "<group>";
+		};
+		EF030D8C14B58AD81D5E923F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BED6F0A67E00B75C1245CCBD /* libPods-CAShapeLayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F78A60780862A30882696DC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1BB6B62057A5B4D3A621472 /* Pods-CAShapeLayerDemo.debug.xcconfig */,
+				B90E0192982FB4551B638E00 /* Pods-CAShapeLayerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5586DDD723A1D3B400E3951A /* CAShapeLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5586DE0723A1D3B500E3951A /* Build configuration list for PBXNativeTarget "CAShapeLayerDemo" */;
+			buildPhases = (
+				D5CCBE545DC246ABF2E1FE49 /* [CP] Check Pods Manifest.lock */,
+				5586DDD423A1D3B400E3951A /* Sources */,
+				5586DDD523A1D3B400E3951A /* Frameworks */,
+				5586DDD623A1D3B400E3951A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAShapeLayerDemo;
+			productName = CAShapeLayerDemo;
+			productReference = 5586DDD823A1D3B400E3951A /* CAShapeLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5586DDF223A1D3B500E3951A /* CAShapeLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5586DE0A23A1D3B500E3951A /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoTests" */;
+			buildPhases = (
+				5586DDEF23A1D3B500E3951A /* Sources */,
+				5586DDF023A1D3B500E3951A /* Frameworks */,
+				5586DDF123A1D3B500E3951A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5586DDF523A1D3B500E3951A /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerDemoTests;
+			productName = CAShapeLayerDemoTests;
+			productReference = 5586DDF323A1D3B500E3951A /* CAShapeLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5586DDFD23A1D3B500E3951A /* CAShapeLayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5586DE0D23A1D3B500E3951A /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoUITests" */;
+			buildPhases = (
+				5586DDFA23A1D3B500E3951A /* Sources */,
+				5586DDFB23A1D3B500E3951A /* Frameworks */,
+				5586DDFC23A1D3B500E3951A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5586DE0023A1D3B500E3951A /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerDemoUITests;
+			productName = CAShapeLayerDemoUITests;
+			productReference = 5586DDFE23A1D3B500E3951A /* CAShapeLayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5586DDD023A1D3B400E3951A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "H&L";
+				TargetAttributes = {
+					5586DDD723A1D3B400E3951A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5586DDF223A1D3B500E3951A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5586DDD723A1D3B400E3951A;
+					};
+					5586DDFD23A1D3B500E3951A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5586DDD723A1D3B400E3951A;
+					};
+				};
+			};
+			buildConfigurationList = 5586DDD323A1D3B400E3951A /* Build configuration list for PBXProject "CAShapeLayerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5586DDCF23A1D3B400E3951A;
+			productRefGroup = 5586DDD923A1D3B400E3951A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5586DDD723A1D3B400E3951A /* CAShapeLayerDemo */,
+				5586DDF223A1D3B500E3951A /* CAShapeLayerDemoTests */,
+				5586DDFD23A1D3B500E3951A /* CAShapeLayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5586DDD623A1D3B400E3951A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5586DDEB23A1D3B500E3951A /* LaunchScreen.storyboard in Resources */,
+				5586DDE823A1D3B500E3951A /* Assets.xcassets in Resources */,
+				5586DDE623A1D3B400E3951A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5586DDF123A1D3B500E3951A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5586DDFC23A1D3B500E3951A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5CCBE545DC246ABF2E1FE49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAShapeLayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5586DDD423A1D3B400E3951A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4F3C223A9C56B00EE1117 /* HBrokenLineView.m in Sources */,
+				559D908F23AB44050042D422 /* HBrokenLineXYViewController.m in Sources */,
+				5586DE1523A20A5B00E3951A /* BezierViewController.m in Sources */,
+				5586DE1223A2087D00E3951A /* BezierPathView.m in Sources */,
+				5586DDE323A1D3B400E3951A /* ViewController.m in Sources */,
+				559D908C23AB13AD0042D422 /* HBrokenLineXYView.m in Sources */,
+				5586DDDD23A1D3B400E3951A /* AppDelegate.m in Sources */,
+				559D909D23B08B700042D422 /* HFanViewController.m in Sources */,
+				55B506E923B6EA44003B8E34 /* HColorTextLabel.m in Sources */,
+				5586DDEE23A1D3B500E3951A /* main.m in Sources */,
+				559D90A323B0A6E60042D422 /* HFanView.m in Sources */,
+				55EA5D0423CC5180006020D3 /* ZHYSWaterAnalysLineView.m in Sources */,
+				559D90A723B1EB980042D422 /* HProgressBarViewController.m in Sources */,
+				55EA5D0723CC51AC006020D3 /* ZHYSExponentView.m in Sources */,
+				559D909A23AC65920042D422 /* HBrokenPointInfoView.m in Sources */,
+				55EA5D0A23CC5340006020D3 /* HLineChat2ViewController.m in Sources */,
+				559D909423AB678C0042D422 /* HBrokenPointView.m in Sources */,
+				559D90AA23B2FFFA0042D422 /* HProgressView.m in Sources */,
+				559D909723AC58E10042D422 /* HBasicShapeLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5586DDEF23A1D3B500E3951A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5586DDF823A1D3B500E3951A /* CAShapeLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5586DDFA23A1D3B500E3951A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5586DE0323A1D3B500E3951A /* CAShapeLayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5586DDF523A1D3B500E3951A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5586DDD723A1D3B400E3951A /* CAShapeLayerDemo */;
+			targetProxy = 5586DDF423A1D3B500E3951A /* PBXContainerItemProxy */;
+		};
+		5586DE0023A1D3B500E3951A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5586DDD723A1D3B400E3951A /* CAShapeLayerDemo */;
+			targetProxy = 5586DDFF23A1D3B500E3951A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5586DDE423A1D3B400E3951A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5586DDE523A1D3B400E3951A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5586DDE923A1D3B500E3951A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5586DDEA23A1D3B500E3951A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5586DE0523A1D3B500E3951A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5586DE0623A1D3B500E3951A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5586DE0823A1D3B500E3951A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BB6B62057A5B4D3A621472 /* Pods-CAShapeLayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAShapeLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comHSiriDemo.CAShapeLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5586DE0923A1D3B500E3951A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90E0192982FB4551B638E00 /* Pods-CAShapeLayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAShapeLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comHSiriDemo.CAShapeLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5586DE0B23A1D3B500E3951A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAShapeLayerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comHSiriDemo.CAShapeLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayerDemo.app/CAShapeLayerDemo";
+			};
+			name = Debug;
+		};
+		5586DE0C23A1D3B500E3951A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAShapeLayerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comHSiriDemo.CAShapeLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayerDemo.app/CAShapeLayerDemo";
+			};
+			name = Release;
+		};
+		5586DE0E23A1D3B500E3951A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAShapeLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comHSiriDemo.CAShapeLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAShapeLayerDemo;
+			};
+			name = Debug;
+		};
+		5586DE0F23A1D3B500E3951A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CAShapeLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comHSiriDemo.CAShapeLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAShapeLayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5586DDD323A1D3B400E3951A /* Build configuration list for PBXProject "CAShapeLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5586DE0523A1D3B500E3951A /* Debug */,
+				5586DE0623A1D3B500E3951A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5586DE0723A1D3B500E3951A /* Build configuration list for PBXNativeTarget "CAShapeLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5586DE0823A1D3B500E3951A /* Debug */,
+				5586DE0923A1D3B500E3951A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5586DE0A23A1D3B500E3951A /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5586DE0B23A1D3B500E3951A /* Debug */,
+				5586DE0C23A1D3B500E3951A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5586DE0D23A1D3B500E3951A /* Build configuration list for PBXNativeTarget "CAShapeLayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5586DE0E23A1D3B500E3951A /* Debug */,
+				5586DE0F23A1D3B500E3951A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5586DDD023A1D3B400E3951A /* Project object */;
+}
